@@ -1,0 +1,147 @@
+body {
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    border-left: 5px solid #000000;
+}
+
+.fila01 {
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+    }
+
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #121111;
+        color: white;
+    }
+
+}
+
+.fila02 {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #000000b8;
+        border-left: 8px solid #00000070;
+    }
+
+    li a {
+        display: block;
+        color: #040404b9;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+    }
+
+    li a:hover {
+        background-color: #00000090;
+        color: rgb(0, 0, 0);
+        border-left: 8px solid #000000;
+    }
+}
+
+.fila03 {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #ffffff;
+        border-left: 8px solid #0163ff;
+    }
+
+
+    li a {
+        display: block;
+        color: #000000;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-bottom: 1px solid #0033ff;
+    }
+
+    li a:hover {
+        background-color: #ffffff;
+        color: rgb(0, 13, 255);
+    }
+}
+
+.fila04 {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        background-color: #c300ff00;
+    }
+
+    li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #6a0132;
+        background-color: #c71585;
+        padding: 6px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        border-left: 8px solid #9a004f;
+        border-radius: 20px;
+    }
+
+    li a:hover {
+        background-color: #ff00c8;
+        color: white;
+    }
+}
+
+.fila05 {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+    }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #121111;
+        color: white;
+    }
+}
